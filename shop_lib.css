@@ -1,0 +1,274 @@
+.btn3d {
+    position:relative;
+    top: -6px;
+    border:0;
+     transition: all 40ms linear;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-left:2px;
+     margin-right:2px;
+}
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+    -moz-outline-style:none;
+         outline:medium none;
+}
+.btn3d:active, .btn3d.active {
+    top:2px;
+}
+.btn3d.btn-white {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.10) inset, 0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0,0,0,.2);
+    background-color:#fff;
+}
+.btn3d.btn-white:active, .btn3d.btn-white.active {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,.1);
+    background-color:#fff;
+}
+.btn3d.btn-default {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0,0,0,.2);
+    background-color:#f9f9f9;
+}
+.btn3d.btn-default:active, .btn3d.btn-default.active {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,.1);
+    background-color:#f9f9f9;
+}
+.btn3d.btn-primary {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4D5BBE, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#4274D7;
+}
+.btn3d.btn-primary:active, .btn3d.btn-primary.active {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color:#4274D7;
+}
+.btn3d.btn-success {
+    box-shadow:0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#78d739;
+}
+.btn3d.btn-success:active, .btn3d.btn-success.active {
+    box-shadow:0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #78d739;
+}
+.btn3d.btn-info {
+    box-shadow:0 0 0 1px #00a5c3 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #348FD2, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#39B3D7;
+}
+.btn3d.btn-info:active, .btn3d.btn-info.active {
+    box-shadow:0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #39B3D7;
+}
+.btn3d.btn-warning {
+    box-shadow:0 0 0 1px #d79a47 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #D79A34, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#FEAF20;
+}
+.btn3d.btn-warning:active, .btn3d.btn-warning.active {
+    box-shadow:0 0 0 1px #d79a47 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #FEAF20;
+}
+.btn3d.btn-danger {
+    box-shadow:0 0 0 1px #b93802 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #AA0000, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#D73814;
+}
+.btn3d.btn-danger:active, .btn3d.btn-danger.active {
+    box-shadow:0 0 0 1px #b93802 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #D73814;
+}
+.btn3d.btn-magick {
+    color: #fff;
+    box-shadow:0 0 0 1px #9a00cd inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #9823d5, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#bb39d7;
+}
+.btn3d.btn-magick:active, .btn3d.btn-magick.active {
+    box-shadow:0 0 0 1px #9a00cd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #bb39d7;
+}
+body {
+        padding: 10px;
+        background: -webkit-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Chrome 10+, Saf5.1+ */
+        background:    -moz-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* FF3.6+ */
+        background:     -ms-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* IE10 */
+        background:      -o-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Opera 11.10+ */
+        background:         linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* W3C */
+    }
+    p {
+        color:#CCC;
+    }
+
+    .spacing {
+        padding-top:7px;
+        padding-bottom:7px;
+    }
+    .middlePage {
+        width: 680px;
+        height: 500px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .logo {
+        font-family: angsana new;
+        font-size: 4em;
+        color:#CCC;
+    }
+    .form-control{
+    background: transparent;
+}
+form {
+    width: 320px;
+    margin: 20px;
+}
+form > div {
+    position: relative;
+    overflow: hidden;
+}
+form input, form textarea {
+    width: 100%;
+    border: 2px solid gray;
+    background: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 8px 12px;
+    outline: 0;
+}
+form input:valid, form textarea:valid {
+    background: white;
+}
+form input:focus, form textarea:focus {
+    border-color: #357EBD;
+}
+form input:focus + label, form textarea:focus + label {
+    background: #357EBD;
+    color: white;
+    font-size: 70%;
+    padding: 1px 6px;
+    z-index: 2;
+    text-transform: uppercase;
+}
+form label {
+    -webkit-transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+    transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+    position: absolute;
+    color: #999;
+    padding: 7px 6px;
+    font-weight: normal;
+}
+form textarea {
+    display: block;
+    resize: vertical;
+}
+form.go-bottom input, form.go-bottom textarea {
+    padding: 12px 12px 12px 12px;
+}
+form.go-bottom label {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+form.go-bottom input:focus, form.go-bottom textarea:focus {
+    padding: 4px 6px 20px 6px;
+}
+form.go-bottom input:focus + label, form.go-bottom textarea:focus + label {
+    top: 100%;
+    margin-top: -16px;
+}
+form.go-right label {
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    margin-right: -100%;
+}
+form.go-right input:focus + label, form.go-right textarea:focus + label {
+    right: 0;
+    margin-right: 0;
+    width: 40%;
+    padding-top: 5px;
+}
+
+.badge-checkboxes .checkbox input[type="checkbox"],
+.badge-checkboxes label.checkbox-inline input[type="checkbox"] {
+    /*  Hide the checkbox, but keeps tabbing to it possible. */
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+.badge-checkboxes .checkbox label,
+.badge-checkboxes label.checkbox-inline {
+    padding-left:0; /* Remove space normally used for the checkbox */
+}
+
+.badge-checkboxes .checkbox input[type="checkbox"]:checked:focus + .badge,
+.badge-checkboxes label.checkbox-inline input[type="checkbox"]:checked:focus + .badge {
+    box-shadow:0 0 2pt 1pt #333;  /* Outline when checkbox is focused/tabbed to */
+}
+
+.badge-checkboxes .checkbox input[type="checkbox"]:focus + .badge,
+.badge-checkboxes label.checkbox-inline input[type="checkbox"]:focus + .badge {
+    box-shadow:0 0 2pt 1pt #999;  /* Outline when checkbox is focused/tabbed to */
+}
+
+.badge-checkboxes .checkbox input[type="checkbox"] + .badge,
+.badge-checkboxes label.checkbox-inline input[type="checkbox"] + .badge {
+    border:1px solid #999; /* Add outline to badge */
+    
+    /* Make text in badge not selectable */
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Give badges for disabled checkboxes an opacity of 50% */
+.badge-checkboxes .checkbox input[type="checkbox"]:disabled + .badge,
+.badge-checkboxes label.checkbox-inline input[type="checkbox"]:disabled + .badge
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;   
+}
+
+/* Remove badge background-color and set text color for not checked options */
+.badge-checkboxes .checkbox input[type="checkbox"]:not(:checked) + .badge,
+.badge-checkboxes label.checkbox-inline input[type="checkbox"]:not(:checked) + .badge{
+    background-color:Transparent;
+    color:#999;
+}
+
+/*The following css only required for Bootstrap <= 3.1.0 */
+.badge-checkboxes .checkbox {
+    padding-left:0; /* Remove space normally used for the checkbox */
+}
+.badge-checkboxes .disabled label,
+.badge-checkboxes label.checkbox-inline.disabled {
+    cursor:not-allowed
+}
+
+/* The following CSS not required for the badge styled checkboxes: */
+section + section  {
+    margin-top:20px;
+}
+
+label + .checkbox  {
+    margin-top:0;   
+}
+
+h2 {
+ font-size:18px;   
+ font-weight:bold;
+}
